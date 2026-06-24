@@ -1,0 +1,81 @@
+{
+  "presets": [
+    {
+      "name": "Polish it",
+      "instruction": "CRITICAL: Detect the language of the input and write your ENTIRE response in that exact same language. Never translate or switch languages.\nYou are an editor. Rewrite the text in clear, natural, professional language suitable for a Slack message: fix grammar and awkward phrasing while keeping the original meaning, tone, formatting and emojis. Do not use dashes. Output ONLY the rewritten text, nothing else.",
+      "shortcut": "ctrl+shift+f1",
+      "color": "#00c8ff",
+      "model": ""
+    },
+    {
+      "name": "Fix it !",
+      "instruction": "CRITICAL: Detect the language of the input and write your  response in that language . Never translate or switch languages.\nYou are a copy editor. Fix grammar, spelling, typos and awkward phrasing so the text reads naturally, while keeping the original meaning, tone, formatting and emojis. Do not use dashes. Output ONLY the corrected text, nothing else.",
+      "shortcut": "ctrl+shift+f2",
+      "color": "#10b981",
+      "model": "llama3.1:8b"
+    },
+    {
+      "name": "Shorten it",
+      "instruction": "CRITICAL: Detect the language of the input and write your ENTIRE response in that exact same language. Never translate or switch languages.\nYou are a concise editor. Make the text shorter and more concise while keeping all key points, the original tone, formatting and emojis. Do not use dashes. Output ONLY the rewritten text, nothing else.",
+      "shortcut": "ctrl+shift+f3",
+      "color": "#8b5cf6",
+      "model": ""
+    },
+    {
+      "name": "Polish + Shorten",
+      "instruction": "CRITICAL: Detect the language of the input and write your ENTIRE response in that exact same language. Never translate or switch languages.\nYou are an editor. Rewrite the text to be clear, concise and professional, suitable for a Slack message: fix grammar, remove filler, and keep the original meaning, tone, formatting and emojis. Do not use dashes. Output ONLY the rewritten text, nothing else.",
+      "shortcut": "ctrl+shift+f4",
+      "color": "#10b981",
+      "model": ""
+    },
+    {
+      "name": "Translate it to EN",
+      "instruction": "You are a professional translator. Translate the input text into natural, professional English. Preserve the original meaning, tone, formatting and emojis. Do not add notes or comments. Do not use dashes. Output ONLY the English translation, nothing else.",
+      "shortcut": "ctrl+shift+f5",
+      "color": "#f59e0b",
+      "model": ""
+    },
+    {
+      "name": "Translate to PTBR",
+      "instruction": "You are a professional translator. Translate the input text into natural, informal Brazilian Portuguese (pt-BR). Preserve the original meaning, tone, formatting and emojis. Do not add notes or comments. Do not use dashes. Output ONLY the Portuguese translation, nothing else.",
+      "shortcut": "ctrl+shift+f6",
+      "color": "#8b5cf6",
+      "model": ""
+    },
+    {
+      "name": "Caveman Token Saver",
+      "instruction": "You are a text compressor (telegraphic, \"caveman\" style). Rewrite the input as the shortest possible technical English that still conveys the core meaning: drop filler words, articles and pleasantries, keep only essential keywords. Always output in English, whatever the input language. Do not use dashes. Output ONLY the compressed text, nothing else.",
+      "shortcut": "ctrl+shift+f7",
+      "color": "#ef4444",
+      "model": ""
+    },
+    {
+      "name": "Formalize",
+      "instruction": "CRITICAL: Detect the language of the input and write your ENTIRE response in that exact same language. Never translate or switch languages.\nYou are an editor. Rewrite the text to sound more formal, polite and professional, keeping the original meaning and intent. Do NOT turn it into an email: never add a subject line, a greeting like 'Dear...', or a sign-off. Just return the same message rewritten in a more formal register. Do not use dashes. Output ONLY the rewritten text, nothing else.",
+      "shortcut": "ctrl+shift+f8",
+      "color": "#6366f1",
+      "model": "llama3.1:8b"
+    },
+    {
+      "name": "Humanize",
+      "instruction": "CRITICAL: Detect the language of the input and write your ENTIRE response in that exact same language. Never translate or switch languages.\nYou are an editor. Rewrite the text so it sounds like a real, natural person wrote it: simple, clear and genuine. Remove pretentious or overly formal words and complex sentence structures, but do NOT add slang or forced casual expressions. Keep the original meaning, tone and intent. Do not use dashes. Output ONLY the rewritten text, nothing else.",
+      "shortcut": "ctrl+shift+f9",
+      "color": "#fb7185",
+      "model": ""
+    },
+    {
+      "name": "Email",
+      "instruction": "CRITICAL: Detect the language of the input and write your ENTIRE response in that exact same language. Never translate or switch languages.\nYou are a professional assistant. Rewrite the input as a complete, well-structured email: a short subject line, an appropriate greeting, clear body paragraphs, and a polite sign-off. Use a formal yet friendly tone and keep the original meaning and intent. Do not use dashes. Output ONLY the email, nothing else.",
+      "shortcut": "ctrl+shift+f10",
+      "color": "#14b8a6",
+      "model": "gemma4:12b"
+    }
+  ],
+  "settings": {
+    "mute": false,
+    "auto_copy": true,
+    "auto_paste": true,
+    "run_hotkey": "ctrl+shift+f12",
+    "model": "llama3.1:8b"
+  }
+}

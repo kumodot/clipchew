@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ClipChew runtime / personal state (not for the repo)
+# config.json is generated per-user from config.example.json on first run.
+config.json
+config.json.bak
+config.json.tmp
+last_preset.txt
+
+# Local-only files (not distributed)
+_dev/
+CLAUDE.md
+CLIPCHEW_SPEC.md
+
+# Local backups created while developing
+clipchew_backup_*.py
+config_backup_*.json
+config_CORRUPTED_*.json*
+debug.txt
+debug_stripe.py
+info.txt
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
